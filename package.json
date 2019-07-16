@@ -1,0 +1,14 @@
+{
+  "name": "photo-site",
+  "version": "1.0.0",
+  "description": "A website where I host my photos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "photoswipe": "^4.1.3"
+  }
+}

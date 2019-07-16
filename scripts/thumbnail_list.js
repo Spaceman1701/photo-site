@@ -1,0 +1,1 @@
+thumbnails = ["resources/1_thumbnail.jpg", "resources/2_thumbnail.jpg", "resources/3_thumbnail.jpg"]
