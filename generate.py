@@ -39,6 +39,7 @@ class Photo:
 
     def create_thumbnail(self):
         self.image.thumbnail((target_size, target_size))
+        self.image.save(self.thumbnail_path)
 
     def load_exif(self):
         ret = {}
