@@ -6,7 +6,7 @@ from fractions import Fraction
 from datetime import datetime
 import json
 
-target_size = 500
+target_size = 600, 800
 
 class Photo:
     def __init__(self, file_path):
@@ -38,7 +38,7 @@ class Photo:
         self.create_thumbnail()
 
     def create_thumbnail(self):
-        self.image.thumbnail((target_size, target_size))
+        self.image.thumbnail(target_size)
         self.image.save(self.thumbnail_path)
 
     def load_exif(self):
